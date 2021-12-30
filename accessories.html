@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Penneagle - Accessories</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/normalize.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav collapsible">
+        <div class="nav__bar">
+          <a href="index.html"
+            ><img class="nav__logo" src="/images/logo-full.png" alt=""
+          /></a>
+          <i class="icon nav__menu fas fa-bars"></i>
+        </div>
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="putters.html">Putters</a>
+          </li>
+          <li class="nav__item">
+            <a href="accessories.html">Accessories</a>
+          </li>
+          <li class="nav__item">
+            <a href="apparel.html">Apparel</a>
+          </li>
+          <li class="nav__item">
+            <a href="history.html">About Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="block block--white block--skewed-right selling__block">
+      <h1 class="selling__heading">Penneagle Golf Towel</h1>
+      <div class="grid grid--1x2">
+        <div class="card card__selling">
+          <img
+            class="selling__image"
+            src="/images/penneagle_towel.jpg"
+            alt=""
+          />
+          <div class="selling__title">
+            <h3 class="selling__product">Penneagle Golf Towel</h3>
+            <p class="selling__price">$15</p>
+          </div>
+        </div>
+        <div class="selling__description">
+          <p>
+            Penneagle's accessories are manufactured from the finest materials
+            to insure maximum performance and durability. These luxurious golf
+            towels are perfect for any golf outing or tournament. Versatile
+            accessory that can be used to clean balls, wipe down clubs or dry
+            hands prior to taking that next important shot
+          </p>
+          <ul>
+            <li class="selling__specs">White with Penneagle CIT Logo</li>
+            <li class="selling__specs">Made from 100% Terry Cotton</li>
+
+            <li class="selling__specs">Full hemmed for a clean look</li>
+            <li class="selling__specs">
+              Grommet and hook for easy attachment to your bag
+            </li>
+          </ul>
+          <a
+            class="btn btn--buy_now"
+            href="https://buy.stripe.com/aEUfZXcKHagwguceV7"
+          >
+            Buy Now
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      id="color__switch--bottle"
+      class="block block--dark block--skewed-left--top selling__block"
+    >
+      <h1 class="selling__heading">Penneagle Water Bottle</h1>
+      <div class="grid grid--1x2">
+        <div class="card card__selling">
+          <img
+            id="penneagle--bottle"
+            class="selling__image"
+            src="/images/penneagle_bottle--black.jpg"
+            alt=""
+          />
+          <div class="selling__title">
+            <h3 class="selling__product">Penneagle Water Bottle</h3>
+            <p class="selling__price">$30</p>
+          </div>
+        </div>
+        <div class="selling__description">
+          <p>
+            With a great size and stainless steel material, this insulated water
+            bottle definitely adds style to your drink and keeps a beverage hot
+            or cold for hours!
+          </p>
+          <ul>
+            <li class="selling__specs">Signature Penneagle CIT Logo</li>
+            <li class="selling__specs">Copper liner</li>
+            <li class="selling__specs">Vacuum insulation</li>
+            <li class="selling__specs">Keeps liquid hot for 12 hours</li>
+            <li class="selling__specs">Keeps liquid cold for 48 hours</li>
+            <li class="selling__specs">Individually poly-bagged</li>
+            <li class="selling__specs">
+              To ensure a long lasting design, we recommend hand wash only
+            </li>
+          </ul>
+          <div class="color__selector">
+            <button
+              class="color color--black"
+              type="button"
+              onclick="color_black__bottle();
+              document.getElementById('penneagle--bottle').src='/images/penneagle_bottle--black.jpg'
+              document.getElementById('btn--buy_now').href='https://buy.stripe.com/5kA7trcKH74kcdWfZc'"
+            ></button>
+            <button
+              class="color color--white"
+              type="button"
+              onclick="color_white__bottle();
+              document.getElementById('penneagle--bottle').src='/images/penneagle_bottle--white.jpg'
+              document.getElementById('btn--buy_now').href='https://buy.stripe.com/fZe5lj7qngEUdi08wL'"
+            ></button>
+            <a
+              id="btn--buy_now"
+              class="btn btn--buy_now"
+              href="https://buy.stripe.com/5kA7trcKH74kcdWfZc"
+            >
+              Buy Now
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="grid footer">
+        <section class="footer__section">
+          <div class="collapsible">
+            <div class="collapsible__header">
+              <i class="icon collapsible__icon fas fa-chevron-right"></i>
+              <h2 class="collapsible__heading">Products</h2>
+            </div>
+            <ul class="collapsible__content">
+              <li class="footer__item">
+                <a href="putters.html">Putters</a>
+              </li>
+              <li class="footer__item">
+                <a href="accessories.html">Accessories</a>
+              </li>
+              <li class="footer__item">
+                <a href="apparel.html">Apparel</a>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="footer__section">
+          <div class="collapsible">
+            <div class="collapsible__header">
+              <i class="icon collapsible__icon fas fa-chevron-right"></i>
+              <h2 class="collapsible__heading">Penneagle Tips</h2>
+            </div>
+            <ul class="collapsible__content">
+              <li class="footer__item">
+                <a href="fitting_guide.html">Fitting Guide</a>
+              </li>
+              <li class="footer__item">
+                <a href="putting_tips.html">Putting Tips</a>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="footer__section">
+          <div class="collapsible">
+            <div class="collapsible__header">
+              <i class="icon collapsible__icon fas fa-chevron-right"></i>
+              <h2 class="collapsible__heading">About Us</h2>
+            </div>
+            <ul class="collapsible__content">
+              <li class="footer__item">
+                <a href="history.html">Company History</a>
+              </li>
+              <li class="footer__item">
+                <a href="testimonials.html">Testimonials</a>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <div class="footer__logo">
+          <img
+            class="footer__image"
+            src="/images/logo-full.png"
+            alt="Penneagle"
+          />
+          <p class="footer__copyright">
+            Est. 2002<br />Copyright 2016 Penneagle® Golf Company. <br />
+            All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="/js/main.js"></script>
+    <script
+      src="https://kit.fontawesome.com/f29c0974db.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

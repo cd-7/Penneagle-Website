@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Penneagle - Apparel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/normalize.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav collapsible">
+        <div class="nav__bar">
+          <a href="index.html"
+            ><img class="nav__logo" src="/images/logo-full.png" alt=""
+          /></a>
+          <i class="icon nav__menu fas fa-bars"></i>
+        </div>
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="putters.html">Putters</a>
+          </li>
+          <li class="nav__item">
+            <a href="accessories.html">Accessories</a>
+          </li>
+          <li class="nav__item">
+            <a href="apparel.html">Apparel</a>
+          </li>
+          <li class="nav__item">
+            <a href="history.html">About Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section>
+      <h1 class="selling__heading">Penneagle Apparel</h1>
+      <div
+        id="color__switch--shirts"
+        class="block block--skewed-left-double selling__block block--dark"
+      >
+        <h1 class="selling__heading">Penneagle Sport Shirts</h1>
+        <div class="grid grid--1x2">
+          <div class="card card__selling">
+            <img
+              id="penneagle--shirt"
+              class="selling__image"
+              src="/images/penneaglet--black.jpg"
+              alt="Black Penneagle Shirt"
+            />
+            <div class="selling__title">
+              <h3 class="selling__product">Penneagle Sport Shirt</h3>
+              <p class="selling__price">$40</p>
+            </div>
+          </div>
+          <div class="selling__description">
+            <p>
+              Penneagle Sport Collection represents the finest in quality and
+              comfort. We start with 100% polyester perfectly suitable for tour
+              wear to weekday casual. Our golf polo shirts are cut for a relaxed
+              fit to promote unrestricted motion for enhanced performance.
+            </p>
+            <ul>
+              <li class="selling__specs">Stylish short open sleeves</li>
+              <li class="selling__specs">Pointelle stitch detail collar</li>
+              <li class="selling__specs">Three-button placket</li>
+              <li class="selling__specs">Finished vented tails</li>
+              <li class="selling__specs">
+                Signature CIT logo embroidered on left sleeve
+              </li>
+              <li class="selling__specs">Availible in S, M, L</li>
+            </ul>
+            <div class="color__selector">
+              <button
+                class="color color--black"
+                type="button"
+                onclick="color_black__shirts();
+                 document.getElementById('penneagle--shirt').src='/images/penneaglet--black.jpg'
+                 document.getElementById('btn--buy_now--small').href='https://buy.stripe.com/fZefZX11ZgEUa5O146'
+                 document.getElementById('btn--buy_now--medium').href='https://buy.stripe.com/6oEeVT3a7bkAfq828e'
+                 document.getElementById('btn--buy_now--large').href='https://buy.stripe.com/9AQ153dOLfAQ6TCdQX'"
+              ></button>
+              <button
+                class="color color--white"
+                type="button"
+                onclick="color_white__shirts();
+                document.getElementById('penneagle--shirt').src='/images/penneaglet--white.jpg'
+                document.getElementById('btn--buy_now--small').href='https://buy.stripe.com/4gw9BzfWTagwfq85ks'
+                document.getElementById('btn--buy_now--medium').href='https://buy.stripe.com/eVaaFD6mj3S82Dm28b'
+                document.getElementById('btn--buy_now--large').href='https://buy.stripe.com/fZefZX11ZgEUa5O146'"
+              ></button>
+              <button
+                class="color color--navy"
+                type="button"
+                onclick="color_navy__shirts();
+                document.getElementById('penneagle--shirt').src='/images/penneaglet--navy.jpg'
+                document.getElementById('btn--buy_now--small').href='https://buy.stripe.com/9AQ7tr9yv4WccdW6os'
+                document.getElementById('btn--buy_now--medium').href='https://buy.stripe.com/6oEdRP5ifagwem414d'
+                document.getElementById('btn--buy_now--large').href='https://buy.stripe.com/fZefZX11ZgEUa5O146'"
+              ></button>
+              <button
+                class="color color--green"
+                type="button"
+                onclick="color_green__shirts();
+                document.getElementById('penneagle--shirt').src='/images/penneaglet--green.jpg'
+                document.getElementById('btn--buy_now--small').href='https://buy.stripe.com/14k2977qn1K02Dm149'
+                document.getElementById('btn--buy_now--medium').href='https://buy.stripe.com/aEUdRPh0X4Wcfq8eV5'
+                document.getElementById('btn--buy_now--large').href='https://buy.stripe.com/5kAfZX3a774k3Hq9AK'"
+              ></button>
+              <a
+                id="btn--buy_now--small"
+                class="btn btn--buy_now small"
+                href="https://buy.stripe.com/fZefZX11ZgEUa5O146"
+              >
+                Buy Now
+              </a>
+              <a
+                id="btn--buy_now--medium"
+                class="btn btn--buy_now medium"
+                href="https://buy.stripe.com/6oEeVT3a7bkAfq828e"
+              >
+                Buy Now
+              </a>
+              <a
+                id="btn--buy_now--large"
+                class="btn btn--buy_now large"
+                href="https://buy.stripe.com/9AQ153dOLfAQ6TCdQX"
+              >
+                Buy Now
+              </a>
+            </div>
+            <div></div>
+            <div class="size_selector">
+              <button
+                id="size--small"
+                type="button"
+                onclick="size_selector_small()"
+              >
+                S
+              </button>
+              <button
+                id="size--medium"
+                type="button"
+                onclick="size_selector_medium()"
+              >
+                M
+              </button>
+              <button
+                id="size--large"
+                type="button"
+                onclick="size_selector_large()"
+              >
+                L
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        id="color__switch--hats"
+        class="block block--skewed-left--top selling__block block--dark"
+      >
+        <h1 class="selling__heading">Penneagle Hats</h1>
+        <div class="grid grid--1x2">
+          <div class="card card__selling">
+            <img
+              id="penneagle--hat"
+              class="selling__image"
+              src="/images/penneagle_hat--black.jpg"
+              alt=""
+            />
+            <div class="selling__title">
+              <h3 class="selling__product">Penneagle Sport Hat</h3>
+              <p class="selling__price">$20</p>
+            </div>
+          </div>
+          <div class="selling__description">
+            <p>
+              Penneagle high performance headwear features quality craftsmanship
+              and traditional solids that mark its classic distinction.
+            </p>
+            <ul>
+              <li class="selling__specs">By OGIO</li>
+              <li class="selling__specs">One size fits all for a secure fit</li>
+              <li class="selling__specs">
+                Comfortable 100% Moisture-Wicking Polyester
+              </li>
+              <li class="selling__specs">Silver Buckle</li>
+              <li class="selling__specs">Stylish low profile cut</li>
+              <li class="selling__specs">
+                Signature Penneagle CIT logo embroidery
+              </li>
+            </ul>
+            <div class="color__selector">
+              <button
+                class="color color--black-red"
+                type="button"
+                onclick="color_black__hats();
+                document.getElementById('penneagle--hat').src='/images/penneagle_hat--black.jpg'
+                document.getElementById('btn--buy_now').href='https://buy.stripe.com/eVa153dOLbkA7XGcN2'"
+              ></button>
+              <button
+                class="color color--grey-black"
+                type="button"
+                onclick="color_grey__hats();
+                document.getElementById('penneagle--hat').src='/images/penneagle_hat--grey.jpg'
+                document.getElementById('btn--buy_now--small').href='https://buy.stripe.com/14k8xvcKHfAQ91K7sJ'"
+              ></button>
+              <a
+                id="btn--buy_now"
+                class="btn btn--buy_now"
+                href="https://buy.stripe.com/eVa153dOLbkA7XGcN2"
+              >
+                Buy Now
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="grid footer">
+        <section class="footer__section">
+          <div class="collapsible">
+            <div class="collapsible__header">
+              <i class="icon collapsible__icon fas fa-chevron-right"></i>
+              <h2 class="collapsible__heading">Products</h2>
+            </div>
+            <ul class="collapsible__content">
+              <li class="footer__item">
+                <a href="putters.html">Putters</a>
+              </li>
+              <li class="footer__item">
+                <a href="accessories.html">Accessories</a>
+              </li>
+              <li class="footer__item">
+                <a href="apparel.html">Apparel</a>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="footer__section">
+          <div class="collapsible">
+            <div class="collapsible__header">
+              <i class="icon collapsible__icon fas fa-chevron-right"></i>
+              <h2 class="collapsible__heading">Penneagle Tips</h2>
+            </div>
+            <ul class="collapsible__content">
+              <li class="footer__item">
+                <a href="fitting_guide.html">Fitting Guide</a>
+              </li>
+              <li class="footer__item">
+                <a href="putting_tips.html">Putting Tips</a>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="footer__section">
+          <div class="collapsible">
+            <div class="collapsible__header">
+              <i class="icon collapsible__icon fas fa-chevron-right"></i>
+              <h2 class="collapsible__heading">About Us</h2>
+            </div>
+            <ul class="collapsible__content">
+              <li class="footer__item">
+                <a href="history.html">Company History</a>
+              </li>
+              <li class="footer__item">
+                <a href="testimonials.html">Testimonials</a>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <div class="footer__logo">
+          <img
+            class="footer__image"
+            src="/images/logo-full.png"
+            alt="Penneagle"
+          />
+          <p class="footer__copyright">
+            Est. 2002<br />Copyright 2016 Penneagle® Golf Company. <br />
+            All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="/js/main.js"></script>
+    <script
+      src="https://kit.fontawesome.com/f29c0974db.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
